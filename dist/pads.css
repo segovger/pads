@@ -1,3 +1,8 @@
+.navbar-link.is-active, a.navbar-item.is-active {
+    color: white;
+    font-weight: bold;
+}
+
 .spacer{
     margin-bottom: 50px;
 }
@@ -41,7 +46,8 @@
 
 .navbar a:hover{
     background: transparent;
-    color: black;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .pad-wrapper{

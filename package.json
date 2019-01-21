@@ -1,0 +1,15 @@
+{
+  "name": "insidetone",
+  "version": "1.0.0",
+  "description": "Pads site",
+  "main": "index.js",
+  "scripts": {
+    "script": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://segovger.github.io/insidetone",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
