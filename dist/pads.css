@@ -92,6 +92,12 @@
     box-shadow: 0px 2px 25px 0px rgba(255,9,0,0.87);
 }
 
+@media screen and (max-width: 1087px){
+    .navbar-link.is-active, a.navbar-item.is-active {
+        color: black;
+    }
+}
+
 @media screen and (min-width: 900px){
     .pad-area {
         width: 60%;

@@ -4,7 +4,7 @@
   "description": "Pads site",
   "main": "index.js",
   "scripts": {
-    "script": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
