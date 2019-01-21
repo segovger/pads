@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Custom-Preset-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Insidetone" transform="translate(54.000000, 63.000000)">
+            <path d="M198.5,375 C303.710245,375 389,291.948821 389,189.5 C389,87.051179 303.710245,4 198.5,4 C93.289755,4 8,87.051179 8,189.5 C8,291.948821 93.289755,375 198.5,375 Z" id="Oval" stroke="#979797" fill="#000000"></path>
+            <path d="M0.5,201.5 L233.5,0.5" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M107.5,355.5 L378.5,120.5" id="Line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M138,374 L392.5,152.5" id="Line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M159,66.5 L159,310.5" id="Line-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M288,200 L288,353.5" id="Line-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
