@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pad design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="pads.css" type="text/css">
+</head>
+<body>
+<section class="pad1-cover">
+  <div class="overlay"></div>
+        <nav class="navbar spacer" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="https://bulma.io">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                  </a>
+              
+                  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+                </div>
+              
+                <div id="navbarBasicExample" class="navbar-menu">
+              
+                  <div class="navbar-end">
+                    <a href="pads1.html" class="navbar-item is-active">Pad 1</a>
+                    <a href="pads2.html" class="navbar-item">Pad 2</a>
+                    <a href="pads3.html" class="navbar-item">Pad 3</a>
+                  </div>
+                </div>
+              </nav>
+    
+    <div class="container pad-area">
+        <ul class="pad-container pad-wrapper container ">
+            <li data-key="82" id="pad1" class="pad" onclick="clickBtn1()"></li>
+            <li data-key="84" id="pad2" class="pad" onclick="clickBtn2()"></li>
+            <li data-key="89" id="pad3" class="pad" onclick="clickBtn3()"></li>
+                    
+            <li data-key="70" id="pad4" class="pad" onclick="clickBtn4()"></li>
+            <li data-key="71" id="pad5" class="pad" onclick="clickBtn5()"></li>
+            <li data-key="72" id="pad6" class="pad" onclick="clickBtn6()"></li>
+
+            <li data-key="86" id="pad7" class="pad" onclick="clickBtn7()"></li>
+            <li data-key="66" id="pad8" class="pad" onclick="clickBtn8()"></li>
+            <li data-key="78" id="pad9" class="pad" onclick="clickBtn9()"></li>
+        </ul>
+    </div>
+
+    <audio data-key="82" src="./sounds/boom.wav"></audio>
+    <audio data-key="84" src="./sounds/clap.wav"></audio>
+    <audio data-key="89" src="./sounds/hihat.wav"></audio>
+    <audio data-key="70" src="./sounds/kick.wav"></audio>
+    <audio data-key="71" src="./sounds/openhat.wav"></audio>
+    <audio data-key="72" src="./sounds/ride.wav"></audio>
+    <audio data-key="86" src="./sounds/snare.wav"></audio>
+    <audio data-key="66" src="./sounds/tink.wav"></audio>
+    <audio data-key="78" src="./sounds/tom.wav"></audio>
+  </section>
+
+    <script type="text/javascript" src="./pads1.js"></script>
+    <script type="text/javascript" src="./burger.js"></script>
+</body>
+</html>
